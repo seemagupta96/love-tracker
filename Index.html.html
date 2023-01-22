@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('p.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+
+        header {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12 ">
+                <nav class="navbar bg-body-tertiary fixed-top ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand " href="#">
+                            <h2>Itni khushi😍</h2>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header bg-danger">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body bg-dark">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-light" aria-current="page"
+                                            href="./project js.html">Love Per.</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="./love gussa.html">Love Gussa</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="./love attitude.html">Love Attitude</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="./finsh.html">Love Gussa</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Dropdown
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item " href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li>
+                                                <hr class="dropdown-divide ">
+                                            </li>
+                                            <li><a class="dropdown-item t" href="#">Something else here</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex mt-3" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <button class="btn btn-outline-success text-light" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <header>
+        <div class="card w-50 m-auto text-center">
+            <div class="card-header bg-danger text-light">
+                <h3>Love❤️Calculator </h3>
+            </div>
+            <div class="card-body">
+                <form class="from-inline w-75 m-auto">
+                    <div class="from-group">
+                        <input type="text" name="" class="form-control" required placeholder="Your Name">
+                    </div>
+                    <div><span class="pl-4 pr-4">+</span></div>
+                    <din class="from-group">
+                        <input type="text" name="" class="form-control" required placeholder="Love Name">
+                    </din>
+
+                    <br>
+                    <div class="w-75 m-auto">
+                        <button class="btn btn-success w-50" onclick="Checkloveper()">Click</button>
+                    </div>
+                </form>
+                <br>
+                <input type="text" name="" id="lovevalue" class="form-control text-center w-25 m-auto"
+                    placeholder="Love Gussa Percentage">
+            </div>
+            <div class="card-footer">God Bless Your RelationShip</div>
+        </div>
+    </header>
+    <script>
+        function Checkloveper() {
+            var lovedata = Math.random() * 100;
+            lovedata = Math.floor(lovedata);
+            document.getElementById('lovevalue').value = lovedata + "%";
+        }
+    </script>
+</body>
+
+</html>
